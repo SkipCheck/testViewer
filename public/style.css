@@ -1,0 +1,59 @@
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    color: black;
+    line-height: 140%;
+    font-family: 'Exo 2';
+}
+.container{
+    max-width: 1250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#app{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row:nth-child(odd) .field{
+    background-color: #18f0056e;
+}
+
+.row:nth-child(even) .field{
+    background-color: #052cf051;
+}
+
+tr{
+    text-align: center;
+    border-radius: 10px;
+}
+
+th{
+    background-color: #40a2dbd3;
+}
+
+td, th{
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+    text-wrap: wrap;
+}
+
+td{
+    font-weight: 600;
+}
+
+td.fired{
+    padding: 5px 30px 5px 30px;
+    background-color: #f0053c77;
+}
+
